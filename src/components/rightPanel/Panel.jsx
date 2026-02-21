@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ShoppingCart, Heart, X } from "lucide-react";
-import CartItem from "./cartItem";
 import FavItem from "./FavItem";
+import CartItem from "./CartItem";
 import ThemeContext from "../../context";
 import { Link } from "react-router-dom";
 

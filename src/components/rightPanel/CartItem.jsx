@@ -1,7 +1,7 @@
 import React from "react";
 import { X } from "lucide-react";
 
-export default function CartItem({ item, updateCount, deleteItemCart }) {
+export default function CartItem({ deleteItemCart, updateCount, item }) {
   return (
     <div className="flex items-center justify-between py-5 border-b border-gray-100">
       <div className="flex items-center gap-3 flex-1 min-w-0">
